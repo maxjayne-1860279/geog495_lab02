@@ -45,10 +45,21 @@ body {
 
   * {box-sizing: border-box}
 
+  /* Text styling boxes */
   .intro {
     float: center;
     width: 100%;
     height: 300px;
+    background-color: white;
+    opacity: 0.9;
+    padding: 30px;
+    overflow-y: auto;
+  }
+
+  .textbox {
+    float: center;
+    width: 100%;
+    height: 500px;
     background-color: white;
     opacity: 0.9;
     padding: 30px;
@@ -197,7 +208,7 @@ body {
     font-size: 30px;
     font-weight: bold;
     font-family: Arial;
-    padding-left: 80px;
+    padding-left: 40px;
   }
   
   /* When the screen is less than 800 pixels wide, */
