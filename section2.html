@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Canopy - Seward Park Ecology</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <div class="topnav" id="myTopnav">
+        <a href="index.html"><b>Seward Park</b></a>
+        <a href="ecology.html">Ecology</a>
+        <a href="section1.html">Understory</a>
+        <a class="active" href="section2.html">Canopy</a>
+        <a href="section3.html">Wildlife</a>
+        <a href="birds.html">Birds</a>
+        <a href="references.html">References</a>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <!-- Page content -->
+    <div class="content">
+        <h1 class="tophead">The Seward Park Canopy</h1>
+    </div>
+    <div class="tab">
+        <button class="tablinks" onclick="openTree(event, 'Dougfir')">Douglas Fir</button>
+        <button class="tablinks" onclick="openTree(event, 'Hemlock')">Western Hemlock</button>
+        <button class="tablinks" onclick="openTree(event, 'Sitka')">Sitka Spruce</button>
+        <button class="tablinks" onclick="openTree(event, 'Redcedar')">Western Red Cedar</button>
+        <button class="tablinks" onclick="openTree(event, 'Maple')">Big Leaf Maple</button>
+        <button class="tablinks" onclick="openTree(event, 'Garry')">Garry Oak</button>
+      </div>
+      
+      <div id="Dougfir" class="tabcontent">
+        <h2>Douglas Fir</h2>
+        <h5><i>Pseudotsuga menziesii (Pinacaea)</i></h5>
+
+        <p>Seward Park is home to many Douglas Trees, members of the Pine family, which can grow to be extremely tall with some recorded at over 300 feet tall. Diamters commonly reach widths of eight feet but can easily grow to be more than ten feet wide. Most Douglas firs will grow for near 500 years though some have endured for over 1,000 years. Douglas Fir trees are native to North America. </p>
+
+        <div class="polaroid">
+            <img src="../img/dougfir.jpg" alt="Douglas Fir branches and seed-cones. SRC: Wikimedia Commons - Andrey Zharkikh" style="width:100%">
+            <div class="container">
+                <p>Douglas Fir branches and seed-cones</p>
+            </div>
+        </div>
+
+        <h3>Features</h3>
+
+        <p>Douglas Fir trees feature soft small 'pine' needles about an inch long that completely cover the ends of the branches upon whoch they rest. The bark of the Douglas fir is smooth and gray on adolescent trees, but later turns a dark brown with large resin blisters and vertical fissures. As the tree ages, it sheds its lower branches. To reproduce, Douglas firs create seedcones (commonly known as pinecones) to spread their seeds.</p>
+
+        <h3>Ecology</h3>
+
+        <p>Douglas firs provide food and shelter to residents of their respective habitats. Many foraging animals such as the Squirrels that inhabit Seward Park eat the seeds of the Douglas Fir. Many of the bird species that reside in Seward park nest in the upper reaches of these trees. Many mosses and ivys likewise find homes on Douglas Firs, and the shade they provide under their canopies allows more shade tolerant plants to thrive in the understory.</p>
+      </div>
+      
+      <div id="Hemlock" class="tabcontent">
+        <h3>Western Hemlock</h3>
+        <p>Paris is the capital of France.</p>
+      </div>
+      
+      <div id="Sitka" class="tabcontent">
+        <h3>Sitka Spruce</h3>
+        <p>Tokyo is the capital of Japan.</p>
+      </div>
+
+      <div id="Redcedar" class="tabcontent">
+        <h3>Western Red Cedar</h3>
+        <p>Tokyo is the capital of Japan.</p>
+      </div>
+
+      <div id="Maple" class="tabcontent">
+        <h3>Big Leaf Maple</h3>
+        <p>Tokyo is the capital of Japan.</p>
+      </div>
+
+      <div id="Garry" class="tabcontent">
+        <h3>Garry Oak</h3>
+        <p>Tokyo is the capital of Japan.</p>
+      </div>
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
